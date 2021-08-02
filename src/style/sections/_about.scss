@@ -74,6 +74,25 @@
           }
         }
       }
+
+      &-skills {
+        position: relative;
+        margin-bottom: 10px;
+        padding-left: 0pt;
+        font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+        font-size: 17px;
+        color: rgb(136, 146, 176);
+        align-items: left;
+
+        &--item {
+          display: inline-flex;
+          grid-template-columns: repeat(2, minmax(140px, 200px));
+          overflow: hidden;
+          padding: 0px;
+          margin: 20px 5px 0px;
+          list-style: none;
+        }
+      }
     }
   }
 }
