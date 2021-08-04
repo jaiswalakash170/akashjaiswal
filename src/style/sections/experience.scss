@@ -1,0 +1,27 @@
+#experience {
+    background-color: $white-color;
+    color: $dark-blue-text;
+    margin-top: -10rem;
+    padding-top: 15rem;
+
+    @include respond(tab-land) {
+        margin-top: 0;
+        padding-top: 5rem;
+    }
+
+    .experience-wrapper {
+        margin-bottom: 15rem;
+    
+        @include respond(phone) {
+          margin-bottom: 0rem;
+        }
+    
+        .row {
+          margin-bottom: 8rem;
+    
+          @include respond(phone) {
+            margin-bottom: 4rem;
+          }
+        }
+    }    
+}
