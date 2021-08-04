@@ -3,15 +3,19 @@
     color: $dark-blue-text;
     margin-top: -10rem;
     padding-top: 15rem;
+    margin-bottom: -1px;
+    -webkit-clip-path: polygon(0 12vh, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 12vh, 100% 0, 100% 90%, 0 100%);
 
+    
     @include respond(tab-land) {
-        margin-top: 0;
-        padding-top: 5rem;
+        margin-top: -10rem;
+        padding-top: 10rem;
     }
 
     .experience-wrapper {
         @include respond(phone) {
-          margin-bottom: 0rem;
+          margin-bottom: 10rem;
         }
     
         .row {
