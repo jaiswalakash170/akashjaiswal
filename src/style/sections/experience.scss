@@ -10,7 +10,6 @@
     }
 
     .experience-wrapper {
-        margin-bottom: 15rem;
         @include respond(phone) {
           margin-bottom: 0rem;
         }
@@ -20,6 +19,15 @@
     
           @include respond(phone) {
             margin-bottom: 4rem;
+          }
+
+          .card {
+            background-color: $white-color;
+            color: $dark-blue-text;
+
+            li {
+                background: none;
+            }
           }
         }
     }    
